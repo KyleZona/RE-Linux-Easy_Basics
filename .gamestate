@@ -1,3 +1,5 @@
+# DO NOT ADJUST, these will reset everytime a player plays
+
 searching_mainhall=false
 Enter_Cultivation_Room=false
 chris_rescued=false
