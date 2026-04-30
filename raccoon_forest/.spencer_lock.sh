@@ -1,3 +1,7 @@
+#!/bin/bash
+GAME_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+source "$GAME_DIR/lib/typewriter-regular.sh"
+
 echo "LOCKED: Enter Owner's Last Name"
 read -s input
 if [ "$input" = "spencer" ]; then
