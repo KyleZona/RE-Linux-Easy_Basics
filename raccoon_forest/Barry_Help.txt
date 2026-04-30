@@ -1,0 +1,15 @@
+
+    use command ls to list out what is inside the directory.
+  ls
+    #terminal returns: Help_Barry.txt oswell_spencer_mansion
+        .txt = a text file (typically font color: white)
+        oswell_spencer_mansion (typically font color: blue)
+
+    oswell_spencer_mansion is a directory.
+    
+    use command cd to change directories
+		the correct syntax is: cd ./directory_name
+    for reference:
+      "." means current directory
+      "/" means inside of
+    so cd ./ means: change directory to inside the current directory
