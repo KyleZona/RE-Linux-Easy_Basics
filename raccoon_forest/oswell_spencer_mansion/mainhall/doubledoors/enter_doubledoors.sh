@@ -40,8 +40,3 @@ typewriter ""
 typewriter "        Barry: What the hell?"
 typewriter "        Jill: Let's report this to Wesker!"
 typewriter ""
-
-
-# Unhide the doors after the scene
-mv "$(dirname "$0")/../.browndoor" "$(dirname "$0")/../browndoor"
-mv "$(dirname "$0")/../.bluedoor" "$(dirname "$0")/../bluedoor"
