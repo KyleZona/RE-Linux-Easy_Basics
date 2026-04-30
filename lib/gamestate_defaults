@@ -1,3 +1,6 @@
+# DO NOT ADJUST, this is core to the game
+
 searching_mainhall=false
 Enter_Cultivation_Room=false
 chris_rescued=false
+spencer_attempts=0
