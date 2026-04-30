@@ -1,4 +1,4 @@
-echo 'LOCKED: please enter owner last name:'
+echo "LOCKED: Enter Owner's Last Name"
 read -s input
 if [ "$input" = "spencer" ]; then
     cd ./oswell_spencer_mansion
