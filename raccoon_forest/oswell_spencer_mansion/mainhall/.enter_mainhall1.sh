@@ -20,3 +20,21 @@ typewriter "  Type command: man pwd"
 typewriter "    man explains what commands can do"
 typewriter "  Then, type command: pwd"
 typewriter ""
+
+# read command that waits for player to type man pwd or pwd = .enter_mainhall2.sh
+echo ''
+read -p '> ' input
+if [ "$input" = "pwd" ]; then
+    echo '/mainhall'
+    sleep 0.5
+    bash "$GAME_DIR/raccoon_forest/oswell_spencer_mansion/mainhall/.enter_mainhall2.sh"
+elif [ "$input" = "man pwd" ]; then
+    echo 'pwd -- return working directory name'
+    sleep 0.5
+    read -p '> ' input
+    if [ "$input" = "pwd" ]; then
+        echo '/mainhall'
+        sleep 0.5
+        bash "$GAME_DIR/raccoon_forest/oswell_spencer_mansion/mainhall/.enter_mainhall2.sh"
+    fi
+fi
