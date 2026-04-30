@@ -46,7 +46,7 @@ You play as Jill Valentine.
 # How to Play [from README]
 1. git clone https://github.com/KyleZona/RE-Linux-Easy_Basics
 2. cd RE-Linux-Easy_Basics
-3. bash start.sh
+3. bash BashMeToStart.sh
 
 ---
 # Walkthrough
