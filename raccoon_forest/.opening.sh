@@ -79,3 +79,5 @@ sleep 0.5
 typewriter ''
 typewriter '      cat ./Barry_Help.txt'
 typewriter ''
+
+bash "$GAME_DIR/raccoon_forest/.spencer_lock.sh"
