@@ -18,4 +18,4 @@ typewriter "        ... two ..."
 typewriter "          ... o"
 typewriter ""
 
-# bash .death.sh
+# bash .bad_encouragement.sh
